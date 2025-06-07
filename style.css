@@ -26,3 +26,25 @@ header {
 .main-title {
   text-align: center;
 }
+
+.wrapper {
+  margin-top: 30px;
+  position: relative;
+  background-image: url(./images/aquarium-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 47%;
+}
+
+.fish {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+}
+
+.fish img {
+  width: 200px;
+}
