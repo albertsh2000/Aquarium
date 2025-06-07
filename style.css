@@ -48,3 +48,27 @@ header {
 .fish img {
   width: 200px;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 39px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  width: 200px;
+  margin-top: 15px;
+}
+
+.submit-btn {
+  margin-top: 15px;
+  cursor: pointer;
+}

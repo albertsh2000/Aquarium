@@ -6,3 +6,9 @@ fish.addEventListener("click", (e) => {
   positionX += 200;
   fish.style.transform = `translateX(${positionX}px)`;
 });
+
+const form = document.querySelector(".form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
